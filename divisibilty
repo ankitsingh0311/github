@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    int num ,  divisior;
+    printf("enter a number:");
+    scanf("%d", &num);
+    
+    printf("enter divisior:");
+    scanf("%d", &divisior);
+    if(divisior==0){
+        printf("sorry!!DIVISION BY ZERO IS NOT ALLOWED.\n");
+    }
+    else if(num%divisior==0){
+        printf("%d is  divisible by %d\n", num , divisior);
+        
+    }
+    else {
+        printf("%d is not divisble by %d\n", num , divisior);
+        
+    }
+    return 0;
+}
